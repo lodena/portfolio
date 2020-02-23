@@ -1,0 +1,152 @@
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  width: 8%;
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  clear: both;
+}
+
+p {
+    line-height: 2;
+}
+
+/* *************************************************** */
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+	box-shadow:inset 0 1px 0 0 #bbdaf7;
+	background:linear-gradient(to bottom, #11999E 5%, #66BFBF 100%);
+	background-color:#11999E;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 16px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #528ecc;
+  margin-top: 20px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #66BFBF 5%, #11999E 100%);
+	background-color:#378de5;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me {
+  margin: 50px auto;
+  width: 50%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  margin-top: 50px;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50%;
+  margin: auto;
+}
+
+.round-profile {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.round-skill-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.round-skill-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  margin-top: 70px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #E4F6F6;
+  position: relative;
+  padding-top: 100px;
+}
